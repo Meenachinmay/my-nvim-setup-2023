@@ -14,9 +14,6 @@ vim.keymap.set('n', 'sk', '<C-w>k')
 vim.keymap.set('n', 'sj', '<C-w>j')
 vim.keymap.set('n', 'sl', '<C-w>l')
 
--- Select ALL
-vim.keymap.set('n', '<C-a>', 'gg<S-v>G')
-
 map('n', '<leader>e', ':NERDTreeToggle<cr>', {noremap = true, silent = false})
 map('n', '<leader>q', ':q<cr>', {noremap = true, silent = false})
 map('n', '<leader>w', ':w<cr>', {noremap = true, silent = false})
