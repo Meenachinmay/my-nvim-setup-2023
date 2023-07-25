@@ -121,6 +121,7 @@ return require('packer').startup(function(use)
     use('MunifTanjim/prettier.nvim')
     use('windwp/nvim-autopairs')
     use('windwp/nvim-ts-autotag')
+    use ("lukas-reineke/lsp-format.nvim")
 
 end)
 
