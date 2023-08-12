@@ -1,8 +1,10 @@
 vim.g.mapleader = " "
-local map = vim.api.nvim_set_keymap 
+local map = vim.api.nvim_set_keymap
 
 vim.keymap.set("n","<leader>pv", vim.cmd.Ex)
 vim.keymap.set("n","<leader>:q", ':q<cr>')
+vim.keymap.set("n", "<leader>f", ':Format<cr>')
+vim.keymap.set("n", "<leader>F", ':FormatWrite<cr>')
 
 -- split window
 vim.keymap.set('n','ss', ':split<Return><C-w>w')
